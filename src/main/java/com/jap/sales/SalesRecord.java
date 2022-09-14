@@ -11,8 +11,6 @@ public class SalesRecord{
     private int clicks_in_site;
 
 
-    public SalesRecord() {
-    }
 
     public SalesRecord(String date, int customer_id, int product_category, String payment_method, double amount, double time_on_site, int clicks_in_site) {
         this.date = date;
